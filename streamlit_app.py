@@ -18,8 +18,8 @@ st.image(logo_url,  width=100)
 st.markdown("# :rainbow[Leaf TIC]")
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
-REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
-REPLICATE_MODEL_ENDPOINTSTABILITY = st.secrets["REPLICATE_MODEL_ENDPOINTSTABILITY"]
+REPLICATE_API_TOKEN = "r8_LXJpfTFH1LcwH2kzZdFF6l0uk4KYMOx0cMGY0"
+REPLICATE_MODEL_ENDPOINTSTABILITY = "stability-ai/sdxl:2b017d9b67edd2ee1401238df49d75da53c523f36e363881e057f5dc3ed3c5b2"
 
 # Resources text, link, and logo
 replicate_text = "Stability AI SDXL Model on Replicate"
