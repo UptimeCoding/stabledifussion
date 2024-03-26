@@ -7,7 +7,7 @@ from utils import icon
 from streamlit_image_select import image_select
 
 # UI configurations
-st.set_page_config(page_title="Replicate Image Generator",
+st.set_page_config(page_title="Leaf TIC",
                    page_icon=":bridge_at_night:",
                    layout="wide")
 # icon.show_icon(":leaf:")
@@ -15,7 +15,7 @@ logo_url = "https://leafbusinessconsulting.com/img/fav-08.png"
 
 # Display the image
 st.image(logo_url,  width=100) 
-st.markdown("# :rainbow[Text-to-Image Artistry Studio]")
+st.markdown("# :rainbow[Leaf TIC]")
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
