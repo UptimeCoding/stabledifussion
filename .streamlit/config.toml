@@ -1,3 +1,5 @@
 [theme]
 base="light"
 font="monospace"
+REPLICATE_API_TOKEN = "r8_LXJpfTFH1LcwH2kzZdFF6l0uk4KYMOx0cMGY0"
+REPLICATE_MODEL_ENDPOINTSTABILITY = "stability-ai/sdxl:2b017d9b67edd2ee1401238df49d75da53c523f36e363881e057f5dc3ed3c5b2"
